@@ -5,16 +5,61 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+    background-color: #000;
+}
+
+footer {
+    position: relative;
+}
+
 .margin-top-45 {
     margin-top: 45px;
 }
 
-.fas {
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.fa-microphone-slash {
     color: #fff;
 }
 
+.fa-share-square {
+    color: #4AC806;
+}
+
+.font-size-25 {
+    font-size: 25px;
+}
+
+.fa-chevron-up {
+    color: white;
+    font-size: 10px;
+}
+
 /* Sezione Videocall */
+.container-tasti {
+    height: 30px;
+    margin-left: 1150px;
+    margin-top: 10px;
+}
+
+.btn-speaker {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 5px 5px;
+    background-color: #4A4A4A;
+    border-radius: 5px;
+}
+
 .container-videocall {
+    height: 950px;
     background-color: #000;
     width: 100%;
 }
@@ -25,7 +70,6 @@
 }
 
 .webcam {
-    margin-left: px;
     padding: 3px 3px;
 }
 
@@ -59,3 +103,59 @@
     text-align: center;
 }
 /* Sezione Videocall */
+
+/* Sezione menu */
+.container-menu {
+    width: 100%;
+    height: 75px;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+}
+
+.container-webcam-micro {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.container-menu-centrale {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-item {
+    color: #fff;
+    font-size: 12px;
+    padding: 0px 15px;
+    line-height: 22px;
+}
+
+.item-hover {
+    color: #fff;
+    text-decoration: none;
+    padding-top: 42px;
+    padding-bottom: 15px;
+}
+
+.end-meeting {
+    color: #FA2109;
+    padding: 31px 15px;
+    text-decoration: none;
+    font-size: 10px;
+    margin-right: -23px;
+}
+
+.end-meeting:hover {
+    background-color: #4A4A4A;
+}
+/* Sezione menu */
